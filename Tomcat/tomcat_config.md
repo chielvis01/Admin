@@ -7,7 +7,7 @@
 ###############
 
 ```
-# cat /usr/local/tomcat/webapps/manager/META-INF/context.xml
+# cat > /usr/local/tomcat/webapps/manager/META-INF/context.xml
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -39,7 +39,7 @@
 ##########
 
 ```
-# cat /usr/local/tomcat/webapps/host-manager/META-INF/context.xml
+# cat > /usr/local/tomcat/webapps/host-manager/META-INF/context.xml
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -70,7 +70,7 @@
 
 ```
 
-# cat tomcat-users.xml 
+# cat > /usr/local/tomcat/conf/tomcat-users.xml 
 
 
 <?xml version="1.0" encoding="UTF-8"?>
