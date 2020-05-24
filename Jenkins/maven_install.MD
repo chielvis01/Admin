@@ -17,7 +17,7 @@ Maven is a code build tool which used to convert your code to an artifact. this 
      
      tar -xvzf apache-maven-3.6.3-bin.tar.gz
      ```
-1. Setup M2_HOME and M2 paths in .bash_profile of the user and add these to the path variable
+1. Setup M2_HOME and M2 paths 
 ```
      # export PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/maven/apache-maven-3.6.3:/opt/maven/apache-maven-3.6.3/bin 
  ```
