@@ -22,8 +22,9 @@ Maven is a code build tool which used to convert your code to an artifact. this 
      # export PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/maven/apache-maven-3.6.3:/opt/maven/apache-maven-3.6.3/bin 
      ```
      or
-   ```sh
+   ```
    vi ~/.profile
+   
 if [ "$BASH" ]; then
   if [ -f ~/.bashrc ]; then
     . ~/.bashrc
