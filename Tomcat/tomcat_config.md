@@ -34,11 +34,11 @@
 </Context>
 
 
-`````
+```
 
 ##########
 
-`````
+```
 # cat /usr/local/tomcat/webapps/host-manager/META-INF/context.xml
 
 
@@ -64,11 +64,11 @@
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
   <Manager sessionAttributeValueClassNameFilter="java\.lang\.(?:Boolean|Integer|Long|Number|String)|org\.apache\.catalina\.filters\.CsrfPreventionFilter\$LruCache(?:\$1)?|java\.util\.(?:Linked)?HashMap"/>
 
-````
+```
 
 ########
 
-`````
+```
 
 # cat tomcat-users.xml 
 
@@ -125,8 +125,9 @@
  <user username="tomcat" password="s3cret" roles="manager-gui"/>
 </tomcat-users>
 
-`````
+```
 
+####
 
 Install Deploy to container plugin
 
